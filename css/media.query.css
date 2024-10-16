@@ -1,0 +1,19 @@
+@media screen and (max-width: 1200px) {
+    .game-card{
+        width: calc(calc(100% - var(--gap-24px)*2)/3);
+    }
+}
+
+
+@media screen and (max-width:992px) { 
+    .game-card{
+        width: calc(calc(100% - var(--gap-24px))/2);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .game-card {
+        width: 100%;
+    }
+}
